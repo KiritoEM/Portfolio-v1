@@ -1,7 +1,10 @@
 import React from "react";
 import Logo from "./../assets/J.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { faLaptop } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
@@ -26,8 +29,8 @@ const Navbar: React.FC = () => {
         <div className="navbar_toggle d-flex justify-content-end">
           <ul className="d-flex">
             <li className="d-flex active"><FontAwesomeIcon icon={faHome} className="icone" />  HOME</li>
-            <li className="d-flex"><FontAwesomeIcon icon={faEnvelope} className="icone" /> TECHNOS</li>
-            <li className="d-flex"><FontAwesomeIcon icon={faEnvelope} className="icone" /> PROJECTS</li>
+            <li className="d-flex"><FontAwesomeIcon icon={faCode} className="icone" /> TECHNOS</li>
+            <li className="d-flex"><FontAwesomeIcon icon={faLaptop} className="icone" /> PROJECTS</li>
             <li className="d-flex contact"><FontAwesomeIcon icon={faEnvelope} className="email_icone" /> CONTACT</li>
           </ul>
         </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Couv from "./../assets/screen.png";
 import Typewriter from "typewriter-effect";
 
+
 const Welcoming_page:React.FC = () => {
 
     const typewriterRef = useRef<any | null>(null);
@@ -40,6 +41,9 @@ const Welcoming_page:React.FC = () => {
                             .pauseFor(1000)
                             .deleteAll()
                             .typeString("I'm fascinated by new technologies")
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .typeString("I search best IT solutions")
                             .start();
                         }}
                       />
