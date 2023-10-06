@@ -1,5 +1,6 @@
 import React from 'react';
-import Profile from "./../assets/profile.jpg";
+import Profile1 from "./../assets/p2.jpg";
+import Profile2 from "./../assets/p1.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,8 +11,8 @@ const About = () => {
           <div className="col-5">
             <div className="image">
                 <div className="profil">
-                  <img src={Profile} alt="" />
-                  <img src={Profile} alt="" />
+                  <img src={Profile1} alt="" />
+                  <img src={Profile2} alt="" />
                 </div>
             </div>
           </div>
@@ -39,7 +40,7 @@ const About = () => {
 
                     </p>
 
-                    <button className='btn'><FontAwesomeIcon icon={faFile} className='-mx-2'/> Book my Resume</button>
+                    <button className='btn'><FontAwesomeIcon icon={faFile} className='-mx-2 icon'/> Book my Resume</button>
                   </div>
                 </div>
               </div>
