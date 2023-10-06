@@ -20,14 +20,14 @@ const Welcoming_page:React.FC = () => {
   return (
     <div className="welcoming">
       <div className="welcoming_content d-flex">
-        <div className="row">
-          <div className="col-5">
+        <div className="row gx-5">
+          <div className="col-6">
             <div className="desc">
               <div className="row">
                 <div className="col-12">
                   <div className="title">
                     <h1>
-                      Hi, I'm EMADISSON <span>JOHAN</span>
+                      Welcome to MY <span>PORTFOLIO</span>
                     </h1>
                     <h2>
                       <Typewriter
@@ -65,9 +65,11 @@ const Welcoming_page:React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-7">
+          <div className="col-6">
             <div className="triangle">
-              <img src={Couv} alt="" />
+               <div className="content">
+                 
+               </div>
             </div>
           </div>
         </div>
