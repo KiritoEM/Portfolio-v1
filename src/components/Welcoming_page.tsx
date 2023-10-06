@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import Couv from "./../assets/screen.png";
 import Typewriter from "typewriter-effect";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 
 const Welcoming_page:React.FC = () => {
@@ -61,7 +63,7 @@ const Welcoming_page:React.FC = () => {
                       <b>NODE JS </b> for serverside{" "}
                     </p>
                     <div className="button ">
-                      <button className="btn">More details</button>
+                      <button className="btn">More details   </button>
                       <button className="btn mx-4">Book my Technos</button>
                     </div>
                   </div>
