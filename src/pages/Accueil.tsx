@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Welcoming_page from '../components/Welcoming_page';
-import About from './About';
+import About from '../components/About';
+import Services from '../components/Services';
 
 const Accueil = () => {
     return (
@@ -9,6 +10,7 @@ const Accueil = () => {
                  <Navbar/>
                  <Welcoming_page/>
                  <About/>
+                 <Services/>
         </div>
     );
 };

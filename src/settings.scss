@@ -12,3 +12,21 @@ $font-2:  'Prompt', sans-serif;;
      text-decoration: none;
      font-family: 'Lato', sans-serif;
 }
+
+@mixin spin{
+
+
+     .spinner {
+          width: 26px;
+          height: 26px;
+          border-radius: 50%;
+          border: 8.4px solid $secondary; /* Couleur du cercle */
+          border-top: 4px solid transparent; /* Partie supérieure transparente */
+          animation: spin 1.8s linear infinite; /* Animation de rotation */
+        }
+        
+     @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+}

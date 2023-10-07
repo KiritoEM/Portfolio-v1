@@ -4,7 +4,7 @@
   width: 100%;
   overflow: hidden;
   background-color: $primary;
-  height: 86.9vh;
+  height: 100vhvh;
 
   &_content {
     width: 100%;
@@ -19,13 +19,13 @@
 
 
       .triangle {
-        width: 120%;
+        width: 130%;
         height: 105vh;
         background-color: $secondary;
         overflow: hidden;
         position: relative;
         transform: translateY(-10%) rotate(45deg);
-        left: 25%;
+        left: 20%;
         border: 3px solid $secondary;
         border-radius: 20px;
 
@@ -34,13 +34,17 @@
           // position: relative;
           // left: 0rem;
           // top: 1.8rem;
-          margin-left: -18rem;
-          margin-top: 11rem;
+          margin-left: -15rem;
+          margin-top: 13rem;
           background-repeat: no-repeat;
-          width: 152%;
-          object-fit: cover;
-          background-image: url(./../assets/screen.png);
-          height: 130vh;
+          width: 132%;
+          height: 140vh;
+
+           img{
+            width: 105%;
+            height: 120vh;
+            // object-fit: cover;
+           }
         }
       }
 
