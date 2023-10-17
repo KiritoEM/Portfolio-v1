@@ -1,6 +1,6 @@
 .services {
      width: 100%;
-      padding-bottom: 4rem;
+      padding-bottom: 5rem;
      background-color: #eeeeee;
      padding-top: 4rem;
 
@@ -46,7 +46,7 @@
           margin-top: 1.7rem;
           max-width: 89%;
           position: relative;
-          left: 6.5%;
+          left: 8%;
 
 
 
@@ -57,7 +57,7 @@
                 background-color: rgb(241, 245, 248);
                 border-bottom-left-radius: 20px;
                 border-top-left-radius: 20px;
-                box-shadow: 0 2px 6px rgba(104, 102, 102, 0.747);
+                box-shadow: 0 2px 8.2px rgba(58, 57, 57, 0.603);
                 border: 1px solid $secondary;
                 border-bottom-right-radius: 4px;
                 border-top-right-radius: 4px;
@@ -83,6 +83,7 @@
                      width: 100%;
                      padding-top: 1rem;
                       padding-bottom: 5rem;
+                      border-top-right-radius: 17px;
                      position: relative;
                     
                      background-color: rgba(27, 27, 26, 0.767);
@@ -97,11 +98,20 @@
                           }
 
                           .lig{
-                               width: 50%;
-                               margin-left: 25.5%;
                                border-radius: 15px;
                                height: 4.6px;
                                background-color: $secondary;
+                          }
+
+                          .lig_open{
+                              width: 76%;
+                              margin-left: 12.5%;
+                              transition: 0.1s ease-in;
+                          }
+                          .lig_close{
+                              width: 37%;
+                              margin-left: 32.2%;
+                              transition: 0.1s ease-in;
                           }
                        }
 

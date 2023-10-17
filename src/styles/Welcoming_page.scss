@@ -4,7 +4,7 @@
   width: 100%;
   overflow: hidden;
   background-color: $primary;
-  height: 100vhvh;
+  height: 100vh;
 
   &_content {
     width: 100%;
@@ -25,7 +25,7 @@
         overflow: hidden;
         position: relative;
         transform: translateY(-10%) rotate(45deg);
-        left: 20%;
+        left: 13.5rem;
         border: 3px solid $secondary;
         border-radius: 20px;
 

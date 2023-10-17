@@ -36,7 +36,7 @@ const Services = () => {
 
   return (
     <div className="services">
-      <Zoom>
+
         <div className="row" id="row1">
           <div className="col-12">
             <div className="title text-center">
@@ -52,9 +52,9 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </Zoom>
 
-      <div className="row gx-4" id="row2">
+
+      <div className="row gx-5" id="row2">
         <div className="  col-4">
           <div className="box">
             <div className="row">
@@ -71,7 +71,7 @@ const Services = () => {
                 >
                   <div className="main-title  text-center">
                     <h1>An interactive Frontend</h1>
-                    <div className="lig"></div>
+                    <div className={`lig ${open ? "lig_open" : "lig_close"}`}></div>
                   </div>
                   <div className="desc mt-3  text-center">
                     <p className="truncate">
@@ -103,7 +103,7 @@ const Services = () => {
                 >
                   <div className="main-title text-center">
                     <h1>An efficient serverside</h1>
-                    <div className="lig"></div>
+                    <div className={`lig ${open1 ? "lig_open" : "lig_close"}`}></div>
                   </div>
                   <div className="desc mt-3  text-center">
                     <p className="truncate">
@@ -136,7 +136,7 @@ const Services = () => {
                 >
                   <div className="main-title  text-center">
                     <h1>Dynamic fullstack App</h1>
-                    <div className="lig"></div>
+                    <div className={`lig ${open2 ? "lig_open" : "lig_close"}`}></div>
                   </div>
                   <div className="desc mt-3  text-center">
                     <p className="truncate">

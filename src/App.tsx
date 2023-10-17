@@ -5,7 +5,6 @@ import Accueil from './pages/Accueil';
 const App : React.FC = () => {
   return (
     <div className='app'>
-       
     <BrowserRouter>
      <Routes>
        <Route path="/" element={<Accueil/>} />
